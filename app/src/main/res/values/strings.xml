@@ -1,0 +1,444 @@
+<resources>
+    <string name="app_name">TfLiteImageClassification</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+
+    <string name="model">Model:</string>
+    <string-array name="food_item">
+        <item>Pizza</item>
+
+        <item>Aloo Paratha</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Biryani</item>
+        <item>Burger</item>
+
+        <item>Chole Bhature</item>
+
+        <item>Coca Cola</item>
+        <item>Coffee</item>
+        <item>Dosa</item>
+        <item>Doughnut</item>
+        <item>Egg</item>
+        <item>Grapes</item>
+        <item>Idli</item>
+
+        <item>Steamed Momos</item>
+        <item>Noodles</item>
+        <item>Plain Rice</item>
+        <item>Samosa</item>
+        <item>Sandwich</item>
+
+        <item>Tandoori Chicken</item>
+        <item>GulabJamun</item>
+        <item>Gulab Jamun</item>
+        <item>Jalebi</item>
+        <item>Orange</item>
+        <item>Utpam</item>
+        <item>Upma</item>
+        <item>Cookies</item>
+        <item>Kaju Katli</item>
+        <item>Rajma</item>
+
+        <item>Boondi Laddoo</item>
+
+        <item>Aloo Gobhi</item>
+        <item>Tacos</item>
+        <item>Rasmalai</item>
+
+        <item>Chilly Potato</item>
+        
+        <item>Scrambled Egg</item>
+        <item>Dhokla</item>
+        <item>Rasgulla</item>
+        <item>Imarti</item>
+        <item>Chapati</item>
+        <item>Cucumber</item>
+        <item>Nutella</item>
+        <item>Cheery</item>
+        <item>Beer</item>
+        <item>French Fries</item>
+        <item>Guava</item>
+        <item>Strawberry</item>
+        <item>Bhindi</item>
+        <item>Fish Fry</item>
+        <item>Manchurian</item>
+        <item>Red Bull</item>
+        <item>Lemon</item>
+        <item>Chocolate Icecream</item>
+        <item>Cake</item>
+        <item>Watermelon</item>
+        <item>Bread</item>
+        <item>Veg Puff</item>
+        <item>Paneer Cubes</item>
+        <item>Gajar ka Halwa</item>
+        <item>Chicken Biryani</item>
+        <item>Mutton Biryani</item>
+        <item>Mutton Korma</item>
+        <item>Mutton Fry</item>
+        <item>Baigan Bharta</item>
+        <item>Chicken Tikka</item>
+        <item>Chicken wings</item>
+        <item>Chicken Curry</item>
+        <item>Chicken Salad</item>
+        <item>Chicken Sandwich</item>
+        <item>Chicken Salami</item>
+        <item>Chicken Liver</item>
+        <item>Matar Paneer</item>
+        <item>Paneer Korma</item>
+        <item>Paneer Kabab</item>
+        <item>Saag Paneer</item>
+        <item>Palak Paneer</item>
+        <item>Aloo  Naan</item>
+        <item>Aloo Curry</item>
+        <item>Aloo Matar</item>
+        <item>Aloo Tikki</item>
+        <item>Pav Bhaji</item>
+        <item>Onion Paratha</item>
+        <item>Egg Paratha</item>
+        <item>Paneer Paratha</item>
+        <item>Mooli  Paratha</item>
+        <item>Baked Chicken</item>
+        <item>Tomato daal</item>
+        <item>Whiskey</item>
+        <item>Wine Red</item>
+        <item>Wine Rose</item>
+        <item>Port Wine</item>
+        <item>Wheat Beer</item>
+        <item>Root Beer</item>
+        <item>Lite Beer</item>
+        <item>Chicken Nuggets</item>
+        <item>Pork Gravy</item>
+        <item>Butter Chicken Masala</item>
+        <item>Chicken Shawarma</item>
+        <item>Chicken roll</item>
+        <item>Egg Roll</item>
+        <item>Spring roll</item>
+        <item>Pork Spring roll</item>
+        <item>Tofu Spring Roll</item>
+        <item>Chicken spring roll</item>
+        <item>Chicken eggroll</item>
+        <item>Salmon roll</item>
+        <item>Egg Omlette</item>
+        <item>Ham Omlette</item>
+        <item>Veggie Omlette</item>
+        <item>Cheese Omlette</item>
+        <item>Spinach Omlette</item>
+        <item>Saag Aloo</item>
+        <item>Jeera Aloo</item>
+        <item>Tandoori Aloo</item>
+        <item>Aloo Pakoda</item>
+        <item>Dum Aloo</item>
+        <item>Rava Idli</item>
+        <item>Ragi Dosa</item>
+        <item>Wheat Dosa</item>
+        <item>Egg Dosa</item>
+        <item>Onion Dosa</item>
+        <item>Carrot Dosa</item>
+        <item>Butter Dosa</item>
+        <item>Chicken Lollipop</item>
+        <item>Sabudana Khichdi</item>
+        <item>Lassi</item>
+        <item>Mango Lassi</item>
+        <item>Whole Milk Yogurt</item>
+        <item>Aloo Gajar Matar</item>
+        <item>Aloo Sabzi</item>
+        <item>Methi Thepla</item>
+        <item>Aloo Methi Paratha</item>
+        <item>Lachcha Paratha</item>
+        <item>Mix Veg Paratha</item>
+        <item>Shahi Paneer</item>
+        <item>Chili Paneer</item>
+        <item>Paneer Capsicum</item>
+        <item>Bhindi Fry</item>
+        <item>Bhindi Masala</item>
+        <item>Capsicum rice</item>
+        <item>Kadhai Paneer</item>
+        <item>Kadhai Gosht</item>
+        <item>Grilled Chicken</item>
+        <item>Grilled Onion</item>
+        <item>Grilled Shrimp</item>
+        <item>Grilled Salmon</item>
+        <item>Salami beef</item>
+        <item>7 Up</item>
+        <item>Appy Fizz</item>
+        <item>Thums Up</item>
+        <item>Sprite</item>
+        <item>Limca</item>
+        <item>Fanta</item>
+        <item>Mirinda</item>
+        <item>Pepsi</item>
+        <item>Diet Pepsi</item>
+        <item>Diet Coke</item>
+        <item>Nimbooz Masala Soda</item>
+        <item>Cabbage Shredded</item>
+        <item>Red Cabbage Shredded</item>
+        <item>Cabbage roll</item>
+        <item>Cabbage soup</item>
+        <item>Pulao</item>
+        <item>Veg Pulao</item>
+        <item>Mint Pulao</item>
+        <item>Palak Pulao</item>
+        <item>Rajma Pulao</item>
+        <item>Pasta</item>
+        <item>Vodka Pasta</item>
+        <item>Beetroot</item>
+        <item>Beetroot Juice</item>
+        <item>Beetroot Salad</item>
+        <item>Mango </item>
+        <item>Raspberry</item>
+        <item>Passion Fruit</item>
+        <item>Dal Kachori</item>
+        <item>Mutter Kachori</item>
+        <item>Dry Kachori</item>
+        <item>Dry Fruit Kachori</item>
+        <item>Soya Patty</item>
+        <item>Aloo Papdi</item>
+        <item>Raj Kachori</item>
+        <item>Palak Biryani</item>
+        <item>Fish Biryani</item>
+        <item>Egg Biryani</item>
+        <item>Nasi Biryani</item>
+        <item>Dal Fry</item>
+        <item>Hamburger Roll</item>
+        <item>Dal Palak</item>
+        <item>Haldirams Moong Dal</item>
+        <item>Chicken Kabab</item>
+        <item>Seekh Kabab</item>
+        <item>Oats</item>
+        <item>Ghugni</item>
+        <item>Murg Malai Kabab</item>
+        <item>Chilli Chicken</item>
+        <item>Shami Kabab</item>
+        <item>Bun Kabab</item>
+        <item>Kabab Kubideh</item>
+        <item>Pea Sprouts</item>
+        <item>Bean Sprouts</item>
+        <item>Brussel Sprouts</item>
+        <item>Broccoli Sprouts</item>
+        <item>Almond Milk</item>
+        <item>Coconut Milk</item>
+        <item>Apricot</item>
+        <item>Asparagus</item>
+        <item>Bacon</item>
+        <item>Baked Sweet Potato</item>
+        <item>Banana Pudding</item>
+        <item>Banana Muffin</item>
+        <item>Orange Muffin</item>
+        <item>Berry Muffin</item>
+        <item>Black Currant</item>
+        <item>Fig</item>
+        <item>Grapefruit</item>
+        <item>Son Papdi</item>
+        <item>Boorelu</item>
+        <item>Kova Kajjikayalu</item>
+        <item>Moti Choor Laddu</item>
+        <item>Shrikhand</item>
+        <item>Ghevar</item>
+        <item>Modak</item>
+        <item>Puran Poli</item>
+        <item>Sevaiya</item>
+        <item>Sabudana kheer</item>
+        <item>Sabudana</item>
+        <item>Phool Makhana</item>
+        <item>Soya Milk</item>
+        <item>Soya Crisps</item>
+        <item>Soya Bean Curry</item>
+        <item>Soya Chunks</item>
+        <item>Soya Keema</item>
+        <item>Soya Chap</item>
+        <item>Kashmiri Kehwa</item>
+        <item>Aloo methi</item>
+        <item>Aloo Baingan</item>
+        <item>Aloo Kathi Roll</item>
+        <item>Bondas</item>
+        <item>Beans Aloo</item>
+        <item>Bhindi Karela Masala</item>
+        <item>Parval, Pointed Guard</item>
+        <item>Bottle Guard, Raw</item>
+        <item>Tori, Ridge Guard</item>
+        <item>Mysore Bonda</item>
+        <item>Curd Rice</item>
+        <item>Rasam</item>
+        <item>Appam</item>
+        <item>Sambar</item>
+        <item>Vada</item>
+        <item>Suji Halwa</item>
+        <item>Masala Dosa</item>
+        <item>Payasam</item>
+        <item>Pongal</item>
+        <item>Chaat</item>
+        <item>Coconut Burfi </item>
+        <item>Dal Dhokli</item>
+        <item>Besan Ladoo</item>
+        <item>Khandvi</item>
+        <item>Khakhra</item>
+        <item>Pani Puri</item>
+        <item>Sohan Papadi</item>
+        <item>Thepla</item>
+        <item>Chiken  Momo</item>
+        <item>Litti</item>
+        <item>Red Velvet Cake</item>
+        <item>Bread Pakoda</item>
+        <item>Onion Pakora</item>
+        <item>Paneer Pakora </item>
+        <item>Aloo Pakora</item>
+        <item>Banana Chips </item>
+        <item>Banana Shake</item>
+        <item>Vanilla Shake</item>
+        <item>Mango Shake</item>
+        <item>Namak Para</item>
+        <item>Palak Paratha</item>
+        <item>Methi Paratha</item>
+        <item>Gobhi Paratha</item>
+        <item>Vanilla Ice Cream</item>
+        <item>Rogan Josh</item>
+        <item>Malai Kofta</item>
+        <item>Rumali Roti</item>
+        <item>Vada Pav</item>
+        <item>Egg Curry</item>
+        <item>Fish Curry</item>
+        <item>Chiken Curry</item>
+        <item>Cold Coffe</item>
+        <item>Black Coffee</item>
+        <item>Black Tea</item>
+        <item>Green Tea</item>
+        <item>Black Rice</item>
+        <item>Brown Rice</item>
+        <item>Red Rice</item>
+        <item>Lemon Rice</item>
+        <item>Nankhatai</item>
+        <item>Dal Makhani</item>
+        <item>Rajma Rice</item>
+        <item>Peda</item>
+        <item>Kheer</item>
+        <item>Kulfi</item>
+        <item>Blueberry</item>
+        <item>Blackberry</item>
+        <item>Plum</item>
+        <item>Moong Dal </item>
+        <item>Grilled Fish</item>
+        <item>Grilled Steak</item>
+        <item>Milk Cake</item>
+        <item>Broccoli </item>
+        <item>Pumpkin</item>
+        <item>Aloo Tikki</item>
+        <item>Brownie</item>
+        <item>Poha</item>
+        <item>Ragi Roti</item>
+        <item>Sarson Ka Saag</item>
+        <item>Kadhi Chawal </item>
+        <item>Murgh Makhani</item>
+        <item>Sweet Potato</item>
+        <item>Vodka</item>
+        <item>Kachori</item>
+        <item>Kalakand</item>
+        <item>Aalu Jeera </item>
+        <item>Peanut</item>
+        <item>Date</item>
+        <item>Pine apple </item>
+        <item>Avocado</item>
+        <item>Peach </item>
+        <item>Kiwi</item>
+        <item>Lychee</item>
+        <item>Pear</item>
+        <item>Mango </item>
+        <item>Pomegranate</item>
+        <item>Cheese Balls</item>
+        <item>Nacho</item>
+        <item>Pork Cutlet</item>
+        <item>Oreo Shake </item>
+        <item>Lava Cake</item>
+        <item>Mayonese </item>
+        <item>Soup Dumpling</item>
+        <item>Pork Dumpling</item>
+        <item>Lasagna Rolls</item>
+        <item>Misal Pav</item>
+        <item>Dahi Vada</item>
+        <item>Bhujia </item>
+        <item>Phirnee</item>
+        <item>Chana Masala</item>
+        <item>Chana Puri</item>
+        <item>Ginger Bread </item>
+        <item>Ginger  Tea </item>
+        <item>Onion Soup </item>
+        <item>Tomato Soup </item>
+        <item>Prawn</item>
+        <item>Saffron Rice </item>
+        <item>Tamarind Rice </item>
+        <item>Cham Cham </item>
+        <item>Gur Rewari</item>
+        <item>Rabdi</item>
+        <item>Veg Korma</item>
+        <item>Curry Pakoda</item>
+        <item>Thekua</item>
+        <item>Virgin Mojito</item>
+        <item>Lemonade</item>
+        <item>Hot Dog</item>
+        <item>Sphagetti Cooked, Cooked</item>
+        <item>Saucage</item>
+        <item>Pie</item>
+        <item>Cup Cake</item>
+        <item>Donut</item>
+        <item>Sushi</item>
+        <item>Cat fish, raw</item>
+        <item>Cat fish, fried</item>
+        <item>Turkey</item>
+        <item>Meat balls</item>
+        <item>Pan cake</item>
+        <item>Veg Quiche</item>
+        <item>Chicken Quiche</item>
+        <item>Apple Cidar Vinegar</item>
+        <item>Balushahi</item>
+        <item>Pua</item>
+        <item>Khichdi</item>
+        <item>Thandai</item>
+        <item>Gujiya</item>
+        <item>Dal Bati Churma</item>
+        <item>Petha</item>
+        <item>Basundi</item>
+        <item>Gajak</item>
+        <item>Faluda Kulfi</item>
+        <item>Faluda Drink</item>
+        <item>Channa Dal</item>
+        <item>Shahi Tukda</item>
+        <item>Chilli Fish</item>
+        <item>Bhalle Papdi Chat</item>
+        <item>Double Chicken Salan</item>
+        <item>Aloo Ka Salan</item>
+        <item>Bhindi Salan</item>
+        <item>Mirchi Salan</item>
+        <item>Gosht Salan Tarkari</item>
+        <item>Paneer Kulcha</item>
+        <item>Chole Kulcha</item>
+        <item>Vegetable Kulcha</item>
+        <item>Palak Gosht</item>
+        <item>Karahi Gosht</item>
+        <item>Nihari Curry</item>
+    </string-array>
+    <string-array name="brew_array">
+        <item>100 g</item>
+        <item>1 cup</item>
+        <item>1 litre</item>
+        <item>1 serving</item>
+        <item>1 pc</item>
+    </string-array>
+    <string-array name="models">
+        <item>Float</item>
+        <item>Quantized</item>
+    </string-array>
+
+    <string name="device">Device:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+</resources>

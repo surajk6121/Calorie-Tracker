@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.tensorflow.lite.examples.classification">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="SicureMi"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ClassifierActivity"
+            android:label="SicureMi"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Food recognition"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Daily Record"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".CardViewActivity"
+            android:label="Daily Record"
+            android:theme="@style/AppTheme2" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".image"></activity>
+    </application>
+
+</manifest>
